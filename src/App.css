@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.app-header {
+  display: flex;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+[data-theme="dark"] .site-layout .site-layout-background {
+  background: #141414;
+}
+
+.panel-edit-background {
+  margin: 20px;
+  height: 500px;
+  background: #fff;
+}
+
+.filters {
+  display: flex;
+  align-items: flex-start;
+}
+
+.ant-tabs-nav-wrap {
+  padding-left: 10px;
+}
+.table1{
+  float:left;
+  width: 20%;
+
+}
+.table2{
+ float: left;
+ width: 80%;
+ margin-left: "0px";
+ margin-right: "0px"
+}
+
+.scroller {
+  width: 1050px;
+  height: 400px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  align-items: "center";
+  /* display: flex; */
+
+}
+
+div.ant-card {
+  background: #ced8d7;
+  /* border-radius: 25px; */
+}
+
+
+div.ant-card-head {
+  background: #051b2d;
+  color: #ffffff;
+  font-weight: bold;
+  /* width: 250px; */
+}
